@@ -1,8 +1,38 @@
-# React + Vite
+Practica Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades:
 
-Currently, two official plugins are available:
+-Registro y login.
+-Agregar productos al carrito.
+-Agregar comentarios a los productos comprados.
+-Barra de busqueda.
+-Categoria de productos.
+-Ver detalles de los productos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Descripción
+
+Este proyecto es una aplicación de ecommerce desarrollada con:
+
+- **Vite** para un desarrollo rápido.
+- **React** para la interfaz de usuario.
+- **JavaScript** para la lógica de programación.
+- **Tailwind CSS** para estilos responsivos.
+- **JSON Server** para simular una API RESTful.
+- **Material-UI (MUI)** para iconos y componentes de interfaz.
+
+
+1. Clona el Repositorio:
+   ```git clone https://github.com/MauriB30/Practica-Ecommerce.git```
+
+2. Navega al Directorio del Proyecto:
+   ```cd Practica-Ecommerce```
+
+3. Instala las Dependencias:
+   ```npm install```
+
+4. Configura y Ejecuta JSON Server:
+   ```npm install -g json-server```
+   ```npx json-server --watch db.json --port 3001```
+
+5. Inicia la Aplicación:
+   ```npm run dev```
